@@ -52,3 +52,12 @@ conda install r-base
 conda install -c r r-essentials
 conda install -c r package-name
 conda install -c r rstudio --yes
+
+# install software
+conda search [software]
+conda env list
+conda create -n [env name]
+conda activate [env name]
+conda install -c [channel] [software]
+[software] --version
+conda deactivate
