@@ -61,3 +61,6 @@ conda activate [env name]
 conda install -c [channel] [software]
 [software] --version
 conda deactivate
+
+# clone environment
+conda create --name [env name] --clone [myenv]
